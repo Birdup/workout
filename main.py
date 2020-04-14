@@ -10,7 +10,7 @@ from datetime import date
 def wo_picker():
     wos = random.choices(
         wo_list,
-#        weights=wo_weight,
+        weights=wo_weight,
         k=random.randrange(10,16)
     )
     if random.randrange(1,100) > 90:
@@ -27,6 +27,7 @@ with open('WOD.txt', 'w') as filehandle:
     filehandle.write('#############################################\n')
     for item in wo_picker():
         filehandle.write('%s\n' % item)
+        filehandle.write('\n')
 
 print("number of workouts today - ", len(wo_picker()))
 print(wo_picker())
