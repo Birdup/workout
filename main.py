@@ -1,6 +1,6 @@
 import random
 import os
-#os.chdir("workout")
+os.chdir("/home/wes/git/workout")
 from wo_list import wo_list
 #from wo_weight import wo_weight
 from wo_list import run_list
