@@ -1,5 +1,6 @@
 import pandas as pd 
-
+import os
+os.chdir("/home/wes/git/workout")
 
 #read CSV
 colnames = ['Workout', 'WOC']
