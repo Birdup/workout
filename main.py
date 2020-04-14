@@ -10,7 +10,7 @@ from datetime import date
 def wo_picker():
     wos = random.choices(
         wo_list,
-        weights=wo_weight,
+#        weights=wo_weight,
         k=random.randrange(10,16)
     )
     if random.randrange(1,100) > 90:
