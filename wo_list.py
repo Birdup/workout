@@ -3,14 +3,19 @@ import pandas as pd
 
 #read CSV
 colnames = ['Workout', 'WOC']
-data = pd.read_csv("workout\Workouts - Sheet1.csv", names=colnames)
+data = pd.read_csv("Workouts.csv", names=colnames)
 
 #Change them to lists and remove headers
 wo_list = data.Workout.tolist()
 wo_list.remove("Workout")
 wo_weight = data.WOC.tolist()
 wo_weight.remove("WOC")
-# print(wo_weight)
+
+#Converting weights to ints
+for i in range(0, len(wo_weight)): 
+    wo_weight[i] = int(wo_weight[i]) 
+
+print(type(wo_weight[5]))
 # print(wo_list)
 
 # wo_list = ["20 pushups",
