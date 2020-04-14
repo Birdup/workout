@@ -11,7 +11,7 @@ def wo_picker():
     wos = random.choices(
         wo_list,
         weights=wo_weight,
-        k=random.randrange(8,15)
+        k=random.randrange(10,16)
     )
     if random.randrange(1,100) > 90:
         wos.append(random.choice(run_list))
