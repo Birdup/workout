@@ -30,10 +30,3 @@ with open('WOD.txt', 'w') as filehandle:
 
 print("number of workouts today - ", len(wo_picker()))
 print(wo_picker())
-
-# print(wo_list)
-# print(wo_weight)
-
-#where are we?
-# path = os.listdir()
-# print(path)
