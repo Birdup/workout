@@ -1,13 +1,28 @@
-wo_list = ["20 pushups",
-"15 pushups",
-"25 pushups",
-"25 dips",
-"20 dips",
-"15 dips",
-"150 jump ropes",
-"100 jump ropes",
-"75 jump ropes"
-]
+import pandas as pd 
+
+
+#read CSV
+colnames = ['Workout', 'WOC']
+data = pd.read_csv("workout\Workouts - Sheet1.csv", names=colnames)
+
+#Change them to lists and remove headers
+wo_list = data.Workout.tolist()
+wo_list.remove("Workout")
+wo_weight = data.WOC.tolist()
+wo_weight.remove("WOC")
+# print(wo_weight)
+# print(wo_list)
+
+# wo_list = ["20 pushups",
+# "15 pushups",
+# "25 pushups",
+# "25 dips",
+# "20 dips",
+# "15 dips",
+# "150 jump ropes",
+# "100 jump ropes",
+# "75 jump ropes"
+# ]
 
 run_list = [
 "103 Riverlake Drive",
