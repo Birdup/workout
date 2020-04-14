@@ -1,0 +1,1 @@
+wget https://docs.google.com/spreadsheets/d/1BUx1_45DEnmzpkax8Va2V2gIfS4BZKlIlWtXkFOZjMo/gviz/tq?tqx=out:csv&sheet=Sheet1 -O Workout.csv
