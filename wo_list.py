@@ -16,8 +16,8 @@ for i in range(0, len(wo_weight)):
     wo_weight[i] = int(wo_weight[i])
 
 
-print(wo_list[22])
-print(wo_weight[22])
+#print(wo_list[22])
+#print(wo_weight[22])
 # print(wo_list)
 
 # wo_list = ["20 pushups",

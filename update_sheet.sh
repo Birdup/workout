@@ -1,1 +1,1 @@
-wget 'https://docs.google.com/spreadsheets/d/1BUx1_45DEnmzpkax8Va2V2gIfS4BZKlIlWtXkFOZjMo/export?gid=0&format=csv' --output-document=Workout.csv
+wget 'https://docs.google.com/spreadsheets/d/1BUx1_45DEnmzpkax8Va2V2gIfS4BZKlIlWtXkFOZjMo/export?gid=0&format=csv' --output-document=Workouts.csv
